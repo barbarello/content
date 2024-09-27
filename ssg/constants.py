@@ -43,6 +43,7 @@ product_directories = [
     'anolis8',
     'anolis23',
     'al2023',
+    'al2',
     'chromium',
     'debian11', 'debian12',
     'example',
@@ -203,6 +204,7 @@ FULL_NAME_TO_PRODUCT_MAPPING = {
     "Anolis OS 8": "anolis8",
     "Anolis OS 23": "anolis23",
     "Amazon Linux 2023": "al2023",
+    "Amazon Linux 2": "al2",
     "Chromium": "chromium",
     "Debian 11": "debian11",
     "Debian 12": "debian12",
@@ -304,7 +306,7 @@ MULTI_PLATFORM_MAPPING = {
     "multi_platform_slmicro": ["slmicro5"],
     "multi_platform_ubuntu": ["ubuntu1604", "ubuntu1804", "ubuntu2004", "ubuntu2204"],
     "multi_platform_openembedded": ["openembedded"],
-    "multi_platform_al": ["al2023"],
+    "multi_platform_al": ["al2023", "al2"],
 }
 
 RHEL_CENTOS_CPE_MAPPING = {
