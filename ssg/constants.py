@@ -43,7 +43,7 @@ product_directories = [
     'anolis8',
     'anolis23',
     'al2023',
-    'al2',
+    'amazonlinux2',
     'chromium',
     'debian11', 'debian12',
     'example',
@@ -204,7 +204,7 @@ FULL_NAME_TO_PRODUCT_MAPPING = {
     "Anolis OS 8": "anolis8",
     "Anolis OS 23": "anolis23",
     "Amazon Linux 2023": "al2023",
-    "Amazon Linux 2": "al2",
+    "Amazonlinux 2": "amazonlinux2",
     "Chromium": "chromium",
     "Debian 11": "debian11",
     "Debian 12": "debian12",
@@ -285,7 +285,7 @@ REFERENCES = dict(
 MULTI_PLATFORM_LIST = ["rhel", "fedora", "rhv", "debian", "ubuntu",
                        "openeuler",
                        "opensuse", "sle", "ol", "ocp", "rhcos",
-                       "example", "eks", "alinux", "anolis", "openembedded", "al",
+                       "example", "eks", "alinux", "anolis", "openembedded", "al", "amazonlinux",
                        "slmicro"]
 
 MULTI_PLATFORM_MAPPING = {
@@ -306,7 +306,8 @@ MULTI_PLATFORM_MAPPING = {
     "multi_platform_slmicro": ["slmicro5"],
     "multi_platform_ubuntu": ["ubuntu1604", "ubuntu1804", "ubuntu2004", "ubuntu2204"],
     "multi_platform_openembedded": ["openembedded"],
-    "multi_platform_al": ["al2023", "al2"],
+    "multi_platform_al": ["al2023"],
+    "multi_platform_amazonlinux": ["amazonlinux2"],
 }
 
 RHEL_CENTOS_CPE_MAPPING = {
@@ -434,6 +435,7 @@ MAKEFILE_ID_TO_PRODUCT_MAP = {
     'rhcos': 'Red Hat Enterprise Linux CoreOS',
     'eks': 'Amazon Elastic Kubernetes Service',
     'al': 'Amazon Linux',
+    'amazonlinux': 'Amazonlinux',
     'openembedded': 'OpenEmbedded',
 }
 
